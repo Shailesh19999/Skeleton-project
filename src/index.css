@@ -11,6 +11,12 @@ a{
 .nav-item:hover{
   border-bottom: 2px solid red;
 }
+@media (min-width: 100px){
+.navbar-expand-lg .navbar-collapsed {
+    display: flex!important;
+    flex-basis: auto;
+}
+}
 .card-img-top{
   width: 150px;
   height: 200px;
@@ -33,6 +39,36 @@ a{
 
  
 }
+.myimg img{
+  width: 80px;
+  height: 100px;
+}
+
+.contant{
+  margin-left: 80px;
+}
+
+.alertpage{
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+@media (max-width:790px) {
+  .contant h4{
+    font-size: 15px;
+    
+  }
+  
+  .contant button {
+    font-size: 8px;
+    
+    
+  }
+}
+
+
+
 
 
 
@@ -45,7 +81,7 @@ a{
   
   }
   #mydetailes a{
-    margin-bottom: 140px;
+    margin-bottom: 20px;
     
   
   }

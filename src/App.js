@@ -1,7 +1,7 @@
 import Header from './Header';
 import Home from './Home';
-import Contact from './Contact';
 import Product from './Product';
+import DetailsCard from './DetailsCard';
 import { Routes, Route } from "react-router-dom";
 
 
@@ -12,7 +12,7 @@ function App() {
    <Routes>
     <Route exact path ="/" element = {<Home/>}/>
     <Route exact path ="/product/:id" element = {<Product/>}/>
-    <Route exact path ="/contact" element = {<Contact/>}/>
+    <Route exact path ="/detailscard" element = {<DetailsCard/>}/>
     
   </Routes>
      
